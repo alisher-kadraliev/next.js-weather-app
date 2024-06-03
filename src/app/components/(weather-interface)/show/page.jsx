@@ -10,7 +10,7 @@ const Show = ({ data }) => {
         <div className='flex flex-col justify-center items-center'>
           <Image
             src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`}
-            alt=''
+            alt='logo'
             size='100vw'
             height={100}
             width={100}
