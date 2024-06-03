@@ -2,7 +2,6 @@ import Image from 'next/image';
 import React from 'react'
 
 const Show = ({ data }) => {
-  console.log(data);
   if (!data || !data.main) return null
   return (
     <div className='flex flex-col z-50 gap-5'>
