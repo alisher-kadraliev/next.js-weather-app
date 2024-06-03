@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://next-js-weather-app-seven.vercel.app
+
+# Sitemaps
+Sitemap: https://next-js-weather-app-seven.vercel.app/sitemap.xml
