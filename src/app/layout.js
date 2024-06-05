@@ -2,7 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 const inter = Inter({ subsets: ["latin"] });
-
+import { Analytics } from "@vercel/analytics/react"
 export const metadata = {
   title: "Weather app next.js for education purpose",
   description: "Weather for education purpose next.js and test one",
@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children} <SpeedInsights /></body>
+      <body className={inter.className}>{children} <SpeedInsights /><Analytics /></body>
     </html>
   );
 }
